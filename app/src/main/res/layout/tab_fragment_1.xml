@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+
+    <ImageView
+        android:id="@+id/action1"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/action1"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/action1"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="SERIGALA TERAHIR"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/action1"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Jarot dan Ale adalah teman baik, tumbuh bersama sejak kecil. Keduanya memiliki banyak kesamaan, tapi tidak dengan karakter. Mereka membentuk geng Srigala Terakhir, dan bermimpi menjadi mafia terbesar."/>
+    <ImageView
+        android:id="@+id/action2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/action2"/>
+
+    <TextView
+        android:id="@+id/tvTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/action1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="PERTARUHAN"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/action1"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Empat bersaudara Ibra, Elzan, Amar, dan Ical berusaha mengumpulkan uang untuk biaya rumah sakit ayah mereka. Karena selalu menemui jalan buntu, mereka akhirnya mengambil keputusan yang sangat ceroboh. "/>
+    <ImageView
+        android:id="@+id/action3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/action3"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/action1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="THE RAID"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/action1"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Setelah terjebak di dalam sebuah rumah persembunyian mafia berlantai 15 milik Tama, kini Rama dan timnya harus bertarung mati-matian untuk membekuk mereka - sekaligus berjuang untuk bertahan hidup."
+        />
+</RelativeLayout>

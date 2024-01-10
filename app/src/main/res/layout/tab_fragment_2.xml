@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/horor1"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="PENGABDI SETAN"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Setelah sakit aneh selama 3 tahun, Ibu akhirnya meninggal dunia. Bapak lalu memutuskan untuk kerja di luar kota meninggalkan anak-anak. Tak lama kemudian, anak-anak merasa bahwa Ibu kembali berada di rumah. Situasi semakin menyeramkan ketika mereka mengetahui bahwa Ibu datang lagi tidak sekedar untuk menjenguk, tapi untuk menjemput mereka."
+        />
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/horor2"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="POCONG"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Ananta, seorang pembunuh berdarah dingin telah dieksekusi mati oleh Negara. Sasthi, putri satu-satunya harus mengantarkan jenazah sang ayah untuk dikuburkan di kampung halamannya. Dengan ditemani oleh Yama, seorang sipir penjara, keduanya berpacu dengan waktu untuk mencapai kampung Ananta. "
+        />
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/horor3"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="JAILANGKUNG"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Ditengah kesulitan ekonomi, Sri diterima bekerja untuk keluarga Atmojo dengan bayaran yang tinggi, karena keunikan yang ia miliki, yaitu lahir pada hari Jumat Kliwon. Bersama Erna dan Dini, mereka dibawa ke sebuah gubuk tersembunyi di tengah hutan. Di gubuk tersebut, Sri, Erna, dan Dini bertugas untuk memandikan Dela Atmojo, cucu dari Mbah Karsa Atmojo "
+        />
+</RelativeLayout>

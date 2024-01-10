@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/marvel1"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="SRI ASIH"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Alana tidak mengerti mengapa dia selalu dikuasai oleh kemarahan. Tapi dia selalu berusaha untuk melawannya. Dia lahir saat letusan gunung berapi yang memisahkan dia dan orang tuanya. Dia kemudian diadopsi oleh seorang wanita kaya yang berusaha membantunya menjalani kehidupan normal. Tapi saat dewasa, Alana menemukan kebenaran tentang asalnya."
+        />
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/marvel2"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="STAR WARS"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Rey (Daisy Ridley) akhirnya berhasil menemukan ksatria legendaris Jedi, Luke Skywalker (Mark Hamill) di sebuah pulau dengan aura magis. Para pahlawan dari The Force Awakens diantaranya Leia, Finn dan Poe bergabung dengan sang legenda dalam sebuah petualangan epik, yang membuka misteri kuno The Force dimasa lalu yang mengejutkan."
+        />
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/marvel3"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="SPIDERMAN"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Pertama kalinya dalam sejarah layar lebar Spider-Man, identitas asli dari pahlawan nan ramah ini terbongkar, sehingga membuat tanggung jawabnya sebagai seorang berkekuatan super berbenturan dengan kehidupan normalnya, dan menempatkan semua orang terdekatnya dalam posisi paling terancam."
+        />
+</RelativeLayout>
