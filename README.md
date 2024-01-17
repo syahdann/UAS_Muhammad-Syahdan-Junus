@@ -177,5 +177,6 @@ URI video diperoleh dari informasi yang dikirimkan melalui Intent atau secara st
 
 Penggunaan Tab Activity, Fragment, dan ExoPlayer meningkatkan pengalaman pengguna dengan menyediakan antarmuka yang terstruktur, modular, dan memungkinkan pemutaran video yang dikelola dengan baik.
 
-# Demo Dreaming Apps
+# Demo Syahdan Apps
+https://youtu.be/QSKNPrN2NgE?si=EUF41eBc0ZGbh8Ux
 
