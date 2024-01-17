@@ -179,4 +179,3 @@ Penggunaan Tab Activity, Fragment, dan ExoPlayer meningkatkan pengalaman penggun
 
 # Demo Dreaming Apps
 
-https://github.com/muhammadriyadussolihin/RIYADAPPS_UAS_PEMOGRAMAN_MOBILE/assets/116700346/7a322a21-810d-446c-aaa1-72556473b521
